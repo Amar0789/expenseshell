@@ -1,4 +1,6 @@
 #! /bin/bash
+
+set -ex 
 installation () {
 echo "Hi, this is a shell script for git installation"
 
