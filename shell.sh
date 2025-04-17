@@ -27,4 +27,8 @@ echo "git is already installed"
 
 fi
 
+
+
 }
+
+installation()
