@@ -10,7 +10,7 @@ then
 
 echo "Switch to root user and perform the task"
 
-exit0
+exit 
 
 fi
 
