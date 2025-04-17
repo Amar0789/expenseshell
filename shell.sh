@@ -9,7 +9,7 @@ fruits=("Apple" "Banana" "Mango")
 
 echo "your favourite fruits are ${fruits[@]}"
 
-id -u
+B=$(id -u)
 
 if ($? -ne 0)
 
