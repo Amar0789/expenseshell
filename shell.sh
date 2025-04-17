@@ -7,4 +7,4 @@
 
 fruits=("Apple" "Banana" "Mango")
 
-echo "your favourite fruits are ${fruits[0]}"
+echo "your favourite fruit is ${fruits[0]}"
