@@ -1,11 +1,7 @@
 #! /bin/bash
 
-echo "Please enter your first number "
-read A
+echo "Please enter your favourite fruits "
 
-echo "Please enter your second number"
-read B
+read c
 
-c=$(($A + $B))
-
-echo "The sum of two given numbers is $c"
+echo "your favourite fruits are ${c[0]}"
