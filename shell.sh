@@ -1,6 +1,9 @@
 #! /bin/bash
 
-A=$1
-B=$2
+echo "Please enter your age "
+Read A
 
-echo "$A and $B are good friends"
+echo "Please enter your lucky number"
+read B
+
+echo "Hi, there your age is $A and your lucky number is $B"
