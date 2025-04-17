@@ -5,6 +5,6 @@
 # read c
 
 
-fruits = {"Apple" "Banana" "Mango"}
+fruits = ("Apple" "Banana" "Mango")
 
 echo "your favourite fruits are ${fruits[0]}"
