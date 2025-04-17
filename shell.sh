@@ -1,20 +1,29 @@
 #! /bin/bash
 
-# echo "Please enter your favourite fruits "
+echo "Hi, this is a shell script for git installation"
 
-# read c
+A=$(id -u)
 
-
-fruits=("Apple" "Banana" "Mango")
-
-echo "your favourite fruits are ${fruits[@]}"
-
-B=$(id -u)
-
-if [ $B -ne 0 ]
+if [ $? -ne 0 ]
 
 then 
 
-echo "Switch to root user"
+echo "Switch to root user and perform the task"
+
+exit 
 
 fi
+
+dnf list installed git 
+if [ $? -ne 0 ]
+
+then 
+
+dnf install git -y
+
+else 
+
+echo "git is already installed"
+
+fi
+
