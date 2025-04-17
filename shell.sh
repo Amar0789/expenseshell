@@ -1,5 +1,5 @@
 #! /bin/bash
-
+installation () {
 echo "Hi, this is a shell script for git installation"
 
 A=$(id -u)
@@ -27,3 +27,4 @@ echo "git is already installed"
 
 fi
 
+}
