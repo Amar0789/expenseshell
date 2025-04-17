@@ -11,7 +11,7 @@ echo "your favourite fruits are ${fruits[@]}"
 
 B=$(id -u)
 
-if [$B -ne 0]
+if [ $B -ne 0 ]
 
 then 
 
