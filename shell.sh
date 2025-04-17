@@ -1,7 +1,7 @@
 #! /bin/bash
 
 echo "Please enter your age "
-Read A
+read A
 
 echo "Please enter your lucky number"
 read B
