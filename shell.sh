@@ -4,7 +4,7 @@ echo "Hi, this is a shell script for git installation"
 
 A=$(id -u)
 
-if [ $? -ne 0 ]
+if [ $A -ne 0 ]
 
 then 
 
