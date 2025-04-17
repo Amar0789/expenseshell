@@ -1,7 +1,10 @@
 #! /bin/bash
 
-echo "Please enter your favourite fruits "
+# echo "Please enter your favourite fruits "
 
-read c
+# read c
 
-echo "your favourite fruits are ${c[0]}"
+
+fruits = {"Apple" "Banana" "Mango"}
+
+echo "your favourite fruits are ${fruits[0]}"
