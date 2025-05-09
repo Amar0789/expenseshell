@@ -1,36 +1,7 @@
-#! /bin/bash
+#!/bin/bash 
 
-set -ex 
-installation () {
-echo "Hi, this is a shell script for git installation"
+echo "Please enter your name"
 
-A=$(id -u)
+read Name
 
-if [ $A -ne 0 ]
-
-then 
-
-echo "Switch to root user and perform the task"
-
-exit 
-
-fi
-
-dnf list installed git 
-if [ $? -ne 0 ]
-
-then 
-
-dnf install git -y
-
-else 
-
-echo "git is already installed"
-
-fi
-
-
-
-}
-
-installation
+echo "Your name is &Name"
