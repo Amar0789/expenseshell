@@ -1,2 +1,3 @@
 #!/bin/bash
-echo "all arguments you have passed are $@"
+echo "All arguments you have passed are $@"
+echo "The number of arguments you have passed are $#"
