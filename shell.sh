@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "\e[31m Hi \e[0m" 
+echo -e "\e[32m Hi \e[0m" 
