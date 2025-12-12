@@ -1,7 +1,7 @@
 #!/bin/bash
 a=$(id -u)
 if [ $a -ne 0 ]
-echo "Please execute the task with root previlages"
+then echo "Please execute the task with root previlages"
 exit 1
 fi
 b=$(dnf list installed git)
