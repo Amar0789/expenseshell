@@ -4,10 +4,10 @@ if [ $a -ne 0 ]
 then echo "Please execute the task with root previlages"
 exit 1
 fi
-b=$(dnf list installed git)
+b=$(dnf list installed nginx)
 if [ $? -eq 0 ]
-then echo "git is already installed"
+then echo "nginx is already installed"
 exit 1
-else echo "Installing git"
-dnf install git -y
+else echo "Installing nginx"
+dnf install nginx -y
 fi
