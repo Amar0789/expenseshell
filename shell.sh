@@ -1,3 +1,5 @@
 #!/bin/bash/
+a=$1
 fruits=( "Apple" "Banana" "Orange" "Grapes" "Mango" "Papaya" )
-echo "My favourite fruit is ${fruits[1]}"
+echo "Please enter a number in between 0-5"
+echo " The fruit you have selected is ${fruits[$a]}"
