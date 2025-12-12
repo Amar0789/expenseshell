@@ -1,9 +1,13 @@
 #!/bin/bash
-echo "All arguments you have passed are $@"
-echo "The number of arguments you have passed are $#"
-echo "The home directory of the user is $HOME"
-echo "The present workin directory of the user is $PWD"
-echo "The PID of present task is $$"
-echo "The PID of previous task is $!"
-echo "Our script name is $0"
-echo "Whether our previous task got executed correctlt or not $?"
+a=$(id -u)
+if [ $a -ne 0 ]
+echo "Please execute the task with root previlages"
+exit 1
+fi
+b=$(dnf list installed git)
+if [ $? -eq 0 ]
+then echo "git is already installed"
+exit 1
+else echo "Installing git"
+dnf install git -y
+
