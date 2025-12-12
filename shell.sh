@@ -1,4 +1,4 @@
 #!/bin/bash
 echo "lets check with linux commands"
-l=$(id -u)
+l=$(ls -la)
 echo "The linux command value is $l"
