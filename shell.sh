@@ -1,5 +1,5 @@
 #!/bin/bash/
 echo "These are variables"
-a=Amar
-b=Bala
-echo "$a and $b are friends in schooling"
+a=$1
+b=$2
+echo "$1 and $2 are friends in schooling"
