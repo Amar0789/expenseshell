@@ -10,4 +10,4 @@ then echo "git is already installed"
 exit 1
 else echo "Installing git"
 dnf install git -y
-
+fi
