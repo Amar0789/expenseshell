@@ -1,2 +1,2 @@
-#!/bin/bash
-echo "Hi Amar welcome to this session of completingg shell scriptin"
+#!/bin/bash/
+echo "This is just a echo"
