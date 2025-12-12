@@ -1,7 +1,2 @@
-#!/bin/bash 
-
-echo "Please enter your name"
-
-read Name
-
-echo "Your name is $Name"
+#!/bin/bash
+echo "Hi Amar welcome to this session of completingg shell scriptin"
