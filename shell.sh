@@ -1,2 +1,5 @@
 #!/bin/bash/
-echo "This is just a echo"
+echo "These are variables"
+a=Amar
+b=Bala
+echo "&a and &b are friends in schooling"
