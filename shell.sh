@@ -1,2 +1,2 @@
-#!/bin/bash
-echo "Hello i am working on crontab"
+#!/bin/bash 
+echo "This is just a begining"
