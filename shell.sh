@@ -1,2 +1,4 @@
 #!/bin/bash 
-echo "This is just a begining"
+A=amar
+
+echo "Hi $A"
