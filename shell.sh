@@ -1,4 +1,4 @@
 #!/bin/bash 
 echo "Hi user please enter your name"
-read username 
-echo "Hi $username"
+read -s username 
+echo "Hi $username, welcome to the console"
