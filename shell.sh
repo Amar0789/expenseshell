@@ -1,4 +1,3 @@
 #!/bin/bash 
-echo "Hi user please enter your name"
-read -s username 
-echo "Hi $username, welcome to the console."
+a=("apple" "banana" "carrot")
+echo "${a[@]}"
