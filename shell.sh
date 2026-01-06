@@ -1,6 +1,5 @@
 #!/bin/bash 
 set -ex
-trap '{$LINENO}' ERR
 a=("apple" "banana" "carrot")
 echo "${a[1]}"
 ho=$(ls -la)
