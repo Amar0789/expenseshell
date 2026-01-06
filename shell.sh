@@ -1,5 +1,5 @@
 #!/bin/bash 
-A=amar
-B='its again me amar'
+A=$1
+B=$2
 
-echo "Hi $A and $B"
+echo "Hi $1 and $2"
